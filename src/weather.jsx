@@ -29,7 +29,7 @@ function Weather()
           <div className="bg-yellow-200 p-20 ">
             <div className="bg-purple-400 p-10 rounded-md  ">
                 <h1 className="text-3xl font-medium  text-yellow-950">Weather Report:</h1>
-                <input type="text"onChange={handleCity} className="mt-2 border border-black rounded-md p-1"></input><br></br>
+                <input type="text"onChange={handleCity} className="mt-2 border border-black rounded-md p-1 w-full sm:w-1/2 md:w-1/3"></input><br></br>
                 <button onClick={getWeather}className="bg-black text-white p-2 rounded-md mt-2 hover:bg-yellow-700">Get the Report</button>
 
                 <div className="mt-2">
